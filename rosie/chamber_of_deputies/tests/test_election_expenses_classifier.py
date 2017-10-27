@@ -22,5 +22,5 @@ class TestElectionExpensesClassifier(TestCase):
     def test_fit_just_for_formality_because_its_never_used(self):
         self.assertTrue(self.subject.fit(self.dataset) is None)
 
-    def test_tranform(self):
-        self.assertEqual(self.subject.transform(), self.subject)
+    def test_transform_just_for_formality_because_its_never_used(self):
+        self.assertTrue(self.subject.transform() is None)
